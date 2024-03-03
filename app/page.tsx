@@ -31,15 +31,15 @@ export default function Page() {
           {/* <div className={styles.shape} /> */}
           <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
             <strong>Welcome to Bookkeeper.</strong> <br />
-            please sign in to use this website. <br/>
-            Or you can go to demo page.
           </p>
+          You can experience this web site on the demo page.  
           <Link
             href="/demo"
             className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
           >
             <span>Demo Page</span> <ArrowRightIcon className="w-5 md:w-6" />
           </Link>
+          
           {/* shadcn design */}
           {/* <Input type='username' placeholder='username'/>
           <Input type='password' placeholder='password'/>
